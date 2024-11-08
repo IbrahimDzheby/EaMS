@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <graph id="G">
+        <node id="n0" x="600" y="100" name="Eoff" radius="30" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n1" x="600" y="400" name="D" radius="30" fontSize="24" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n2" x="600" y="270" name="R" radius="30" fontSize="23" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n3" x="500" y="200" name="Eon" radius="30" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n4" x="700" y="200" name="P" radius="30" fontSize="23" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n5" x="800" y="100" name="Charge" radius="30" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <edge id="e0" source="n3" target="n0" weight="" isDirected="true" controlStep="-112.26342647129974" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e1" source="n0" target="n5" weight="" isDirected="true" controlStep="-58.82657510402042" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e2" source="n5" target="n0" weight="" isDirected="true" controlStep="79.99999999999999" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e3" source="n4" target="n0" weight="" isDirected="true" controlStep="98.99494936611664" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e4" source="n3" target="n4" weight="" isDirected="true" controlStep="-80" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e5" source="n4" target="n3" weight="" isDirected="true" controlStep="80" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e6" source="n2" target="n3" weight="" isDirected="true" controlStep="-16.669366621246766" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e7" source="n3" target="n2" weight="" isDirected="true" controlStep="19.37683788159101" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e8" source="n2" target="n4" weight="" isDirected="true" controlStep="68.53075311273344" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e9" source="n4" target="n2" weight="" isDirected="true" controlStep="-3.561655892942131" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e10" source="n1" target="n2" weight="" isDirected="true" controlStep="-20" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e11" source="n2" target="n1" weight="" isDirected="true" controlStep="-40" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e12" source="n3" target="n1" weight="" isDirected="true" controlStep="107.33126291998992" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e13" source="n1" target="n3" weight="" isDirected="true" controlStep="-107.33126291998991" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e14" source="n1" target="n4" weight="" isDirected="true" controlStep="151.55417527999333" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e15" source="n4" target="n1" weight="" isDirected="true" controlStep="-98.88543819998318" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <text id="t0" x="700" y="80" width="20" height="25" fontSize="18" background="#ffffff" color="#000000" border="#ffffff" value="o" />
+        <text id="t1" x="680" y="130" width="20" height="25" fontSize="18" background="#ffffff" color="#000000" border="#ffffff" value="a" />
+        <text id="t2" x="520" y="130" width="20" height="25" fontSize="18" background="#ffffff" color="#000000" border="#ffffff" value="a" />
+        <text id="t3" x="600" y="160" width="40" height="21" fontSize="14" background="#ffffff" color="#000000" border="#ffffff" value="b,i" />
+        <text id="t4" x="650" y="220" width="40" height="21" fontSize="14" background="#ffffff" color="#000000" border="#ffffff" value="b,i" />
+        <text id="t5" x="660" y="260" width="40" height="21" fontSize="14" background="#ffffff" color="#000000" border="#ffffff" value="c,i" />
+        <text id="t6" x="570" y="220" width="40" height="21" fontSize="14" background="#ffffff" color="#000000" border="#ffffff" value="c,i" />
+        <text id="t7" x="580" y="340" width="40" height="20" fontSize="13" background="#ffffff" color="#000000" border="#ffffff" value="c,i" />
+        <text id="t8" x="630" y="340" width="40" height="21" fontSize="14" background="#ffffff" color="#000000" border="#ffffff" value="d,i" />
+        <text id="t9" x="510" y="320" width="40" height="21" fontSize="14" background="#ffffff" color="#000000" border="#ffffff" value="d,i" />
+        <text id="t10" x="710" y="330" width="40" height="21" fontSize="14" background="#ffffff" color="#000000" border="#ffffff" value="d,i" />
+        <text id="t11" x="680" y="300" width="40" height="21" fontSize="14" background="#ffffff" color="#000000" border="#ffffff" value="b,i" />
+        <text id="t12" x="810" y="250" width="120" height="21" fontSize="14" background="#ffffff" color="#000000" border="#ffffff" value="i: v = 0, brake" />
+    </graph>
+</graphml>
